@@ -1,0 +1,50 @@
+# ==========================================
+# Target Compilation Outputs
+# ==========================================
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# ==========================================
+# IntelliJ IDEA IDE Files
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.shelf/
+
+# ==========================================
+# Eclipse & NetBeans Files (Optional safety)
+# ==========================================
+.settings/
+.classpath
+.project
+.factorypath
+.nbworkspace/
+nbproject/
+
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==========================================
+# Database & Log Files
+# ==========================================
+*.log
+# If your H2 database saves files locally on disk:
+.h2.db
+*.mv.db
+*.trace.db
+
+# ==========================================
+# Help and System files
+# ==========================================
+.mvn/wrapper/maven-wrapper.jar
